@@ -86,7 +86,7 @@ for color in range(len(x[0][0])):
         result = colorResult
     else:
         for i in range(len(result)):
-            for j in range(len(result)):
+            for j in range(len(result[0])):
                 result[i][j] += colorResult[i][j]
 
 
